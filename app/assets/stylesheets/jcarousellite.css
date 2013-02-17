@@ -1,0 +1,38 @@
+	.content a{
+		float:left;
+		margin:37px 0;
+		cursor: pointer;
+		height: 20px;
+		width: 20px;		
+	}
+	.content ul li{
+		font-family: serif;
+		border: 1px dotted #CCCCCC;
+		display: inline;
+		height: 100px;
+		margin: 0 10px;
+		width: 133px;
+		cursor: pointer;
+		*display:inline;
+		
+	}
+	.content ul li:hover{
+
+	}	
+	
+	.content ul li img{
+		height: 100px;
+		width: 133px;
+
+	}	
+	
+	.content span{
+		color: #777;
+		display: block;
+		font-family: Times,serif;
+		font-size: 12pt;
+		font-weight: bold;
+		line-height: 1.4;
+		margin: 15px 12px;
+		text-align: left;	
+	}

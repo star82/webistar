@@ -1,0 +1,61 @@
+.menu{
+  background-image: image_url('common/menu.png');
+  //background: image_url('common//img/menu2.png') repeat scroll 0 0 transparent;
+  height: 84px;
+  left: -84px;
+  position: absolute;
+  top: 150px;
+  width: 888px;
+  z-index: 1;
+}
+
+.shadow-menu{
+  background-image: image_url('common/menu_shadow.png');
+  //background-image: none;
+  height: 112px;
+  left: -89px;
+  position: absolute;
+  width: 914px;
+  top: 150px;
+}
+.menu ul{
+  left: 18%;
+  list-style: none outside none;
+  margin: 20px auto;
+  position: absolute;
+}
+
+.menu li{
+  text-shadow: 0 1px 1px #000000;
+  display: block;
+  float: left;
+
+  height: 61px;
+  line-height: 61px;
+  list-style: none outside none;
+  margin: 0 24px;
+  padding: 0 20px;
+
+}
+
+.menu li a{
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+#active  a{
+  color: #FAEBD7;
+  text-shadow: -1px -1px 0 #000000;
+}
+
+.menu  li:hover{
+  padding: 0 20px;
+  behavior: url(PIE.htc);
+}
+.menu  li a:hover{
+  color: white;
+}

@@ -1,0 +1,78 @@
+body{
+  background: image_url('common/fon.jpg') no-repeat center center fixed;
+  //background: #4690cf;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#body {
+  position: absolute;
+  width: 99%;
+  z-index: 1;
+  text-align:center;
+  top: 0;
+  padding-bottom: 50px;
+}
+
+div.header{
+  left: 50%;
+  margin-left: -120px;
+  position: absolute;
+  z-index: 2;
+  top: -1px;
+}
+
+div#star-logo{
+  background-image: image_url('common/star.png');
+  -background-image: image_url('common/star-ie.png');
+  height: 245px;
+  position: relative;
+  width: 242px;
+  z-index: 2;
+}
+
+div#shadow{
+  background-image: image_url('common/shadow_star.png');
+  -background: transparent;
+  height: 240px;
+  left: -9px;
+  position: absolute;
+  top: -8px;
+  width: 240px;
+  z-index: -1;
+}
+
+div.block{
+  background: none repeat scroll 0 0 white;
+  min-height: 650px;
+  position: relative;
+  width: 720px;
+  margin: 0px auto;
+  -moz-box-shadow: 4px 4px 8px #333333;
+  -webkit-box-shadow: 4px 4px 8px #333333;
+  box-shadow: 4px 4px 8px #333333;
+  behavior: url(PIE.htc);
+  top: 90px;
+  max-width: 720px;
+}
+
+.block-header{
+  height: 230px;
+}
+
+#block-header div{
+  float: left
+}
+
+.coin-slider {
+  width: 720px;
+}
+
+.gallery {
+  float:left;
+  //padding: 0 10px;
+  height: 120px;
+  margin: 0 10px 0 5px;
+}

@@ -1,0 +1,13 @@
+%div.content
+  =link_to 	'&#9668;'.html_safe, '', :class => :prev, :id => 'cs-prev'
+  %div.gallery
+    %ul
+      %li
+        =image_tag 'works/1.jpg', :style=>'width:150px;height:113px', :alt=>1
+      %li
+        =image_tag 'works/2.jpg', :style=>'width:150px;height:113px', :alt=>2
+      %li
+        =image_tag 'works/3.jpg', :style=>'width:150px;height:113px', :alt=>3
+      %li
+        =image_tag 'works/4.jpg', :style=>'width:150px;height:113px', :alt=>4
+  =link_to 	'&#9658;'.html_safe, '', :class => :next, :id => 'cs-next'
