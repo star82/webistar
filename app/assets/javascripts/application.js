@@ -14,4 +14,14 @@
 //= require jquery_ujs
 //= require coin-slider.min
 //= require jcarousellite
-//= require_tree .
+//= require underscore
+//= require backbone
+//= require backbone_rails_sync
+//= require backbone_datalink
+//= require handlebars
+
+//= require homepages
+//= require_tree ./backbone
+
+
+// require_tree .

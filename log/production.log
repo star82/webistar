@@ -4,3 +4,152 @@ Compiled application.js  (155ms)  (pid 276)
 Compiled jquery.js  (32ms)  (pid 5472)
 Compiled jquery_ujs.js  (0ms)  (pid 5472)
 Compiled application.js  (111ms)  (pid 5472)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:51:15 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 296ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:51:23 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:52:06 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:52:07 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:52:08 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:52:08 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:52:08 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:53:42 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:00 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:01 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:01 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:01 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:02 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:02 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-02 17:54:02 +0200
+Processing by HomepagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'sliders'):
+  app/controllers/homepages_controller.rb:3:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-03-02 18:16:53 +0200
+Processing by HomepagesController#index as HTML
+  Rendered homepages/_header.html.haml (2.0ms)
+  Rendered homepages/_slider.html.haml (27.0ms)
+  Rendered homepages/index.html.haml within layouts/application (228.0ms)
+Completed 500 Internal Server Error in 473ms
+
+ActionView::Template::Error (slider/slide-2.jpg isn't precompiled):
+    2:   %div{ class:"start" }
+    3:     %div#gamesHolder
+    4:       %div#coin-slider
+    5:         =link_to image_tag( 'slider/slide-2.jpg' ), '#1'
+    6:         =link_to image_tag( 'slider/slide-3.jpg' ), '#2'
+    7:         =link_to image_tag( 'slider/mini_ninjas.jpg' ), '#3'
+    8:         =link_to image_tag( 'slider/jquery-640.jpg' ), '#4'
+  app/views/homepages/_slider.html.haml:5:in `_app_views_homepages__slider_html_haml__714771908_15654000'
+  app/views/homepages/index.html.haml:4:in `_app_views_homepages_index_html_haml___248267152_28706904'
+
+
+Compiled jquery.js  (10ms)  (pid 5704)
+Compiled jquery_ujs.js  (1ms)  (pid 5704)
+Compiled coin-slider.min.js  (0ms)  (pid 5704)
+Compiled jcarousellite.js  (1ms)  (pid 5704)
+Compiled underscore.js  (0ms)  (pid 5704)
+Compiled backbone.js  (0ms)  (pid 5704)
+Compiled backbone_rails_sync.js  (0ms)  (pid 5704)
+Compiled backbone_datalink.js  (0ms)  (pid 5704)

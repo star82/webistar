@@ -1,5 +1,11 @@
 =render 'header'
 %div.contents
-  =render 'slider'
-  =render 'last_work'
+  %div#blocks
+  =#render 'slider'
+  =#render 'last_work'
   %div#1footer
+
+
+  %div#contents
+  =#render 'homepages/contact'
+

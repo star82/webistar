@@ -1,5 +1,8 @@
 class HomepagesController < ApplicationController
+  respond_to :json
+
   def index
+
   end
 
   def show
@@ -9,6 +12,7 @@ class HomepagesController < ApplicationController
   end
 
   def new
+    @comment  = Comment.new
   end
 
   def create

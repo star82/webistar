@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.12'
 
@@ -13,6 +13,8 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'therubyracer', :platform => :ruby
+  gem "handlebars_assets"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -20,9 +22,16 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'execjs'
+
 gem 'jquery-rails'
 gem 'haml'
 gem 'haml-rails'
+gem "rails-backbone"
+#gem "backbone-on-rails"
+gem 'paperclip'
+
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -31,9 +40,13 @@ gem 'haml-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+#gem 'mongrel'
 
 # Deploy with Capistrano
 # gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
+gem 'coffee-script-source'
+gem 'json'
+gem 'execjs'
