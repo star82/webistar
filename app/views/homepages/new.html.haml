@@ -1,0 +1,21 @@
+= form_for @comment, :url => homepages_url do |f|
+  .field
+    = f.label :title
+    %br/
+    = f.text_area :title
+  .field
+    = f.label :email
+    %br/
+    = f.email_field :email
+  .field
+    = f.label :body
+    %br/
+    = f.text_area :body
+  #captcha
+    = javascript_include_tag "http://www.google.com/recaptcha/api/challenge?k=6Lfg1d4SAAAAAOo3i_WYogIksf1Y2MPAhJfRaPnB"
+    %noscript
+      %iframe{:frameborder => "0", :height => "300", :src => "http://www.google.com/recaptcha/api/noscript?k=6Lfg1d4SAAAAAOo3i_WYogIksf1Y2MPAhJfRaPnB", :width => "500"}
+      %textarea{:cols => "40", :name => "recaptcha_challenge_field", :rows => "3"}
+      %input{:name => "recaptcha_response_field", :type => "hidden", :value => "manual_challenge"}
+  .actions
+    = f.submit

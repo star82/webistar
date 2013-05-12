@@ -1,0 +1,28 @@
+=#render 'homepages/header'
+%div.contents
+  %div#block.block
+
+  %script{:type=>"text/javascript", :id=>'menu'}
+    %div.shadow-menu
+    %div.menu
+      %ul
+        %li#active
+          =link_to 'главная', "#", :class => 'menu-item', :rel => 'home'
+        %li
+          =link_to 'галерея', '#', :class => 'menu-item', :rel => 'galleries'
+        %li
+          =link_to 'контакти', "#", :class => 'menu-item', :rel => 'contact'
+
+  %script{type:"text/javascript", id:'start'}
+    %div{ class:"start" }
+      START
+
+
+  =render 'homepages/contact'
+
+  %script{:type=>"text/javascript", :id=>'success'}
+    //<!--[CDATA[
+    %div.success
+      Пользователь <%= username %> найден.
+      %a{:href=>'#!/'}Go back
+    //]]-->

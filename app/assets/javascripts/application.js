@@ -19,6 +19,10 @@
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require handlebars
+//= require jPages.min
+//= require bootstrap.min
+//= require jquery-star-rating
+
 
 //= require homepages
 //= require_tree ./backbone

@@ -1,0 +1,48 @@
+<style>
+    ul#itemContainer { list-style: none; padding:0; margin: 20px 0;  }
+    ul#itemContainer li { display: inline-block; margin: 5px; zoom: 1; *display:inline; }
+    ul#itemContainer ll li img { vertical-align: bottom; width: 125px; height: 125px; }
+</style>
+
+<br><br>
+
+<a href="#" id="create_image" class="btn">Create</a>
+
+<!-- navigation holder -->
+<!-- navigation panel -->
+<div class="holder">
+</div>
+
+<!-- item container -->
+
+<ul id="itemContainer">
+  {{#each model}}
+    <li><img src="{{ path }}" alt="image"><br />
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="1"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="2"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="3"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="4"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="5"/>
+    </li>
+  {{/each}}
+</ul>
+
+<!-- navigation holder -->
+<div class="holder">
+</div>
+<br><br>
+<script>
+    $(function() {
+        /* initiate plugin */
+        $("div.holder").jPages({
+            containerID: "itemContainer",
+            perPage       : 6
+        });
+        //$('input.wow').rating();
+
+        $.each( $('input.rating'), function(i,e){
+            $('input.wow-'+i).rating();
+        })
+
+    });
+</script>

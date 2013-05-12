@@ -1,0 +1,38 @@
+- @slider = Slider.first
+- model_class = Slider
+.page-header
+  %h1=t '.title', :default => model_class.model_name.human
+
+%p
+  %strong= model_class.human_attribute_name(:description) + ':'
+  %br
+  = @slider.description
+%p
+  %strong= model_class.human_attribute_name(:priority) + ':'
+  %br
+  = @slider.priority
+%p
+  %strong= model_class.human_attribute_name(:activity) + ':'
+  %br
+  = @slider.activity
+%p
+  %strong= model_class.human_attribute_name(:image_file_name) + ':'
+  %br
+  = @slider.image_file_name
+%p
+  %strong= model_class.human_attribute_name(:image_content_type) + ':'
+  %br
+  = @slider.image_content_type
+%p
+  %strong= model_class.human_attribute_name(:image_file_size) + ':'
+  %br
+  = @slider.image_file_size
+%p
+  %strong= model_class.human_attribute_name(:image_updated_at) + ':'
+  %br
+  = @slider.image_updated_at
+
+.form-actions
+  = link_to t('.back', :default => t("helpers.links.back")), sliders_path, :class => 'btn'
+  = link_to t('.edit', :default => t("helpers.links.edit")), edit_slider_path(@slider), :class => 'btn'
+  = link_to t('.destroy', :default => t("helpers.links.destroy")), slider_path(@slider), :method => "delete", :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-danger'

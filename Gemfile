@@ -10,11 +10,16 @@ gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
+gem 'rb-inotify', :require => false
+gem 'rb-fsevent', :require => false
+gem 'rb-fchange', :require => false
 group :assets do
+  gem 'sass'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'therubyracer', :platform => :ruby
   gem "handlebars_assets"
+  gem 'groundworkcss', :git => 'https://github.com/sidereel/groundworkcss_gem', :submodules => true
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -31,6 +36,15 @@ gem "rails-backbone"
 #gem "backbone-on-rails"
 gem 'paperclip'
 
+gem 'devise'
+
+# add comments
+gem 'acts_as_commentable'
+
+# galleries
+gem 'rails-gallery'
+gem 'letsrate'
+gem 'jquery-star-rating-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -39,7 +53,7 @@ gem 'paperclip'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 #gem 'mongrel'
 
 # Deploy with Capistrano
@@ -47,6 +61,7 @@ gem 'paperclip'
 
 # To use debugger
 # gem 'debugger'
+
 gem 'coffee-script-source'
 gem 'json'
 gem 'execjs'

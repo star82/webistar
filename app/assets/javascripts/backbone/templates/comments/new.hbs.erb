@@ -1,0 +1,25 @@
+<form id="new-homepages"  name="user_session" accept-charset="UTF-8" action="/comments" class="new_comment" id="new_comment" method="post">
+  <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="dpp55IhiJXjxuGqHCsY3xqsTZWl7p4h+j4SsyzFqsyY="></div>
+  <div class="field">
+    <label for="comment_title">Title</label>
+    <br>
+    <input type="text" name="comment[title]" id="comment_title" />
+  </div>
+  <div class="field">
+    <label for="comment_email">Email</label>
+    <br>
+    <input id="comment_email" name="comment[email]" size="30" type="email">
+  </div>
+  <div class="field">
+    <label for="comment_body">Body</label>
+    <br>
+    <textarea cols="40" id="comment_body" name="comment[body]" rows="10"></textarea>
+  </div>
+  <div class="field">
+    <div id="captchadiv"></div>
+  </div>
+
+  <div class="actions">
+    <input name="commit" type="submit" value="Create Comment">
+  </div>
+</form>

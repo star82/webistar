@@ -2,7 +2,7 @@ class HomepagesController < ApplicationController
   respond_to :json
 
   def index
-
+    @gallery = Gallery.first
   end
 
   def show
