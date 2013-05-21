@@ -2,8 +2,10 @@ Webistar::Application.routes.draw do
   root :to => 'homepages#index'
   devise_for :users
 
-  match '/rate' => 'rater#create', :as => 'rate'
-  resources :homepages
+  resources :rater
+  resources :homepages do
+    post :contact, :on => :collection
+  end
   resources :galleries
   resources :comments
   resources :sliders

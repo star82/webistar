@@ -2,7 +2,7 @@ class HomepagesController < ApplicationController
   respond_to :json
 
   def index
-    @gallery = Gallery.first
+
   end
 
   def show
@@ -22,5 +22,11 @@ class HomepagesController < ApplicationController
   end
 
   def destroy
+  end
+
+
+  def contact
+    Contact.contact_email(params).deliver
+    render :json => true
   end
 end

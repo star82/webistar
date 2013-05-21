@@ -1,1 +1,89 @@
-contact test
+<style>
+    input.text, #s {
+        -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.17);
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.17);
+        -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.17) inset;
+        border: 1px solid #B0B0B0;
+        color: #555555;
+        font-size: 85%;
+        height: 32px;
+        width: 195px;
+        margin: 5px;
+    }
+
+    input.text, #s:focus{
+        -moz-box-shadow: 0 0 5px #c0c0c0 inset, 0 0 3px #0E82B7;
+        -webkit-box-shadow: 0 0 5px #c0c0c0 inset, 0 0 3px #0E82B7;
+        box-shadow: 0 0 5px #c0c0c0 inset, 0 0 3px #0E82B7;
+        border: 1px solid #0E82B7;
+        color: #555555;
+        font-size: 85%;
+        height: 32px;
+        width: 195px;
+        margin: 5px;
+    }
+
+    div.controls{
+        background: url("/assets/s.jpg") no-repeat scroll -3px 0 transparent;
+        width: 240px;
+    }
+
+        /*
+        div.input-text{
+            background: url("d.jpg") no-repeat scroll 0 10px transparent;
+            width: 240px;
+        }
+        */
+
+
+    input {
+        font-family: "Liberation Serif Italic","Times New Roman",Serif;
+        font-style: italic;
+        padding: 2px 3px 3px;
+    }
+
+
+</style>
+<%= stylesheet_link_tag 'bootstrap' %>
+<%= stylesheet_link_tag 'bootstrap-responsive' %>
+
+<form class="form-horizontal" id="contact-form">
+  <legend style=" text-align: left;"><i class="icon-envelope"></i></legend>
+  <div class="control-group">
+    <label class="control-label" for="prependedInput">Email</label>
+    <div class="controls">
+      <input type="text" id="email" placeholder="Email">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Name</label>
+    <div class="controls">
+      <input type="text" id="name" placeholder="Name">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Description</label>
+    <div class="controls">
+      <textarea rows="3" id="desc" placeholder="Description"></textarea>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controlss">
+      <button type="reset" class="btn btn-danger">Reset</button>
+      <input type="submit" class="btn btn-primary" id="submit" value="Send">
+    </div>
+  </div>
+</form>
+
+<script>
+    $(document).ready(function() {
+        $( 'div.controls, #prependedInput').focus(function(){
+            $( $(this)[0].parentElement ).css('background', 'url("/assets/d.jpg") no-repeat scroll -3px 0 transparent');
+        }).focusout(function(){
+                    if ( $(this)[0].className == "controls" )$( $(this)[0] ).css('background', 'url("/assets/s.jpg") no-repeat scroll -3px 0 transparent');
+                })
+    });
+
+    $('.btn').button('complete');
+    $('#prependedInput1').popover('show');
+</script>

@@ -40,5 +40,5 @@ class Webistar.Views.Gallery.NewView extends Backbone.View
     @$el.html(template)
 
     this.$("form").backboneLink(@model)
-
+    $('.fileupload').fileupload()
     return this

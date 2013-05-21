@@ -2,7 +2,7 @@ class GalleriesController < ApplicationController
   respond_to :json
   def index
     @gallery = Gallery.all
-    gallery  = @gallery.map{|img| img[:path] = img.image.url(:thumb) }
+    gallery  = @gallery.map{|img| img[:path] = img.image.url(:thumb); img[:averange] = Rate.average(:stars,:conditions => ["gallery_id=?", img.id]).to_f.round(1) }
     respond_with @gallery
   end
 

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  description: MyText
+  priority: 1
+  activity: false
+
+two:
+  description: MyText
+  priority: 1
+  activity: false

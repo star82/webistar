@@ -5,6 +5,7 @@ class Webistar.Views.Gallery.IndexView extends Backbone.View
 
   events:
     "click #create_image"   : "create"
+    "click #close"   : "close"
 
   initialize: () ->
     @gallery = new Webistar.Collections.GalleriesCollection()
@@ -24,7 +25,13 @@ class Webistar.Views.Gallery.IndexView extends Backbone.View
     e.preventDefault()
     e.stopPropagation()
     @view = new Webistar.Views.Gallery.NewView()
-    $(".contents").html(@view.render().el)
+    $("#new-container").html(@view.render().el)
+    $('#imageCreate').modal('show')
+
+  close: (e) ->
+    e.preventDefault()
+    e.stopPropagation()
+    $('#imageCreate').modal('hide')
 
   render: =>
     template = Handlebars.compile(@template({model:@gallery.toJSON()}));

@@ -22,6 +22,7 @@
 //= require jPages.min
 //= require bootstrap.min
 //= require jquery-star-rating
+//= require bootstrap-fileupload
 
 
 //= require homepages

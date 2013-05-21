@@ -10,17 +10,15 @@ gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
-gem 'rb-inotify', :require => false
-gem 'rb-fsevent', :require => false
-gem 'rb-fchange', :require => false
+#gem 'rb-inotify', :require => false
+#gem 'rb-fsevent', :require => false
+#gem 'rb-fchange', :require => false
 group :assets do
   gem 'sass'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'therubyracer', :platform => :ruby
   gem "handlebars_assets"
-  gem 'groundworkcss', :git => 'https://github.com/sidereel/groundworkcss_gem', :submodules => true
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -28,14 +26,12 @@ group :assets do
 end
 
 gem 'execjs'
-
 gem 'jquery-rails'
 gem 'haml'
 gem 'haml-rails'
 gem "rails-backbone"
 #gem "backbone-on-rails"
 gem 'paperclip'
-
 gem 'devise'
 
 # add comments
@@ -62,6 +58,6 @@ gem 'unicorn'
 # To use debugger
 # gem 'debugger'
 
-gem 'coffee-script-source'
-gem 'json'
-gem 'execjs'
+#gem 'coffee-script-source'
+#gem 'json'
+#gem 'execjs'

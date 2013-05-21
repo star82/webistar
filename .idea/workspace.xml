@@ -1,174 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894e0b43-6457-4699-b535-b831c70c7c2a" name="Default" comment="">
+    <list default="true" id="894e0b43-6457-4699-b535-b831c70c7c2a" name="Default" comment="add changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap-fileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/comment_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/comments.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/comments_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/comments_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/contact.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact/contact_email.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/contact_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/galleries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/galleries_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/galleries_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/gallery_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/gallery_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/gallery_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/slider_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/slider_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/slider_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/sliders.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/sliders_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/sliders_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/user_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/new.jst.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/gallery.hbs.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/gallery_view.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/rating_cache.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.min.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130512122744544_create_rates.rb" afterPath="$PROJECT_DIR$/db/migrate/20130512122744544_create_rates.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/homepages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/homepages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/index_view.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/index_view.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/new.hbs.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/new.hbs.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/new_view.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/new_view.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/rate.rb" afterPath="$PROJECT_DIR$/app/models/rate.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rater_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rater_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webistar.iml" afterPath="$PROJECT_DIR$/.idea/webistar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="3137d269-842c-416f-b693-38c573250032" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/works/1-9208e75aa8ceb44905f7a756ad1020b9.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/works/2-b62626eb02616eaf929d55a1d1fb1452.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/sliders/images/000/000/006/original/2FE6-4fDe8k.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/works/3-01c5e5cc9f2477f9f655aafca995063d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/026/original/3DYjViPBJ8c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/026/thumb/3DYjViPBJ8c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/024/original/3ss6Z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/024/thumb/3ss6Z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/027/original/3ss6Z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/027/thumb/3ss6Z.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/works/4-c6bc50b5554a5f92edeb0c93822fa4e8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/023/original/6fm84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/023/thumb/6fm84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/025/original/90447976_large_love2038.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/025/thumb/90447976_large_love2038.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/028/original/90447976_large_love2038.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/028/thumb/90447976_large_love2038.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/border-image.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/fon-9fd2894d6801207b203a0d1c6c7c5261.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/fon.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/game_scr1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/sliders/images/000/000/005/original/game_scr1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/sliders/images/000/000/007/original/game_scr2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/029/original/gamin_collab_3_finall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/029/thumb/gamin_collab_3_finall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gogh.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/sliders/images/000/000/002/original/gogh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/icons.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/jquery-640-113cddef99f172d8f43e88e633f7e56f.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/menu-9b592f6ab897d9e67252549b8ed33a2a.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/menu2-ed4f61c098420044bf98493f7cf945de.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/menu_shadow-e2065c221561c3af2893ee9e06fddc2e.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/mini_ninjas-582186e4cfe2669f5d1b90d1fc60d1ab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/production.sqlite3" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/shadow_star-1f7ee8524db234554ea854a498358f00.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slide-1-9e6d7897dbdbc1a498a454a3c3744d96.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slide-13-6a1ef05e608ef1e03909ecf6e5080950.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slide-2-1810ed0d17222439a6d6d29fb99c7a83.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/slider/slide-3-265f032318b3877681c18e7c0a177baa.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/star-0327c49268ae7d1054bfd154c4fb8d46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/star-half.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common/star-ie-e10a5d3de5495884e14b699001a4bb83.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/star-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/star-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/030/original/ЧX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/030/thumb/ЧX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/022/original/фыв" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galleries/images/000/000/022/thumb/фыв" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130220235342_create_sliders.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324163648_create_comments.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130512075218_create_galleries.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130512122719_devise_create_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130512122744540_create_rating_caches.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130512122744544_create_rates.rb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bootstrap/USAGE" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/destroy/USAGE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sliders/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/homepages/_menu.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bootstrap/bootstrap_generator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/comment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/comments.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/models/comments.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/comments_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/create.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/destroy.html.haml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/destroy/destroy_generator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sliders/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/edit.jst.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/edit_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/galleries_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/gallery.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/gallery.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/models/gallery.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/gallery.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/gallery_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/models/homepages.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/homepages.jst.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/routers/homepages_router.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/homepages_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/galleries/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sliders/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/index_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jPages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jPages.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.raty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/letsrate.js.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/comments/new.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/new.hbs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/homepages/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sliders/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/new.jst.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/new.jst.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/comments/new_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/new_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/new_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/rate.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/rater_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/rating_cache.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/galleries/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sliders/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/show.jst.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/homepages/show_view.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/models/slider.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/slider.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/slider_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sliders.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/sliders_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/sliders_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/update.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/homepages/_slider.html.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/homepages/_header.html.haml" afterPath="$PROJECT_DIR$/app/views/homepages/_header.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/homepages.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/homepages.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/homepages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/homepages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/index.hbs.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/homepages/index.hbs.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webistar.iml" afterPath="$PROJECT_DIR$/.idea/webistar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webistar.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368345762002" ignored="false" />
     <file path="/homepages.js.coffee" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1360961296212" ignored="false" />
-    <file path="/Gemfile" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368361508797" ignored="false" />
+    <file path="/Gemfile" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368423698056" ignored="false" />
     <file path="/Ruby Console" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1360962460498" ignored="false" />
     <file path="/index.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368362623434" ignored="false" />
     <file path="/homepages.css.scss" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1360968163113" ignored="false" />
     <file path="/application.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1364151664658" ignored="false" />
     <file path="/_header.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1362235100030" ignored="false" />
-    <file path="/Dummy.txt" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368381952889" ignored="false" />
+    <file path="/Dummy.txt" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1369180399173" ignored="false" />
     <file path="/_slider.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1362236468486" ignored="false" />
     <file path="/_last_work.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1360967712797" ignored="false" />
     <file path="/homepages.js" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1362236484966" ignored="false" />
     <file path="/_contact.html.haml" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1362235301376" ignored="false" />
-    <file path="/homepages_controller.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368362844260" ignored="false" />
+    <file path="/homepages_controller.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368424339515" ignored="false" />
     <file path="/slider.js" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1362244185157" ignored="false" />
-    <file path="/index.hbs.erb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368366686817" ignored="false" />
+    <file path="/index.hbs.erb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368424900977" ignored="false" />
     <file path="/homepages_router.js.coffee" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368340082817" ignored="false" />
     <file path="/index_view.js.coffee" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368366651671" ignored="false" />
     <file path="/gallery_view.js.coffee" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368364667155" ignored="false" />
@@ -187,10 +125,10 @@
     <file path="/gallery.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368361983617" ignored="false" />
     <file path="/gallery_controller.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368353957104" ignored="false" />
     <file path="/temp.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368354340376" ignored="false" />
-    <file path="$PROJECT_DIR$/test/functional/gallery_controller_test.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368354340376" ignored="false" />
-    <file path="$PROJECT_DIR$/test/unit/helpers/gallery_helper_test.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368354340376" ignored="false" />
     <file path="/galleries_controller.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368359197646" ignored="false" />
     <file path="/gallery.js.coffee" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368356177902" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1368382471443" ignored="false" />
+    <file path="/contact.rb" changelist="894e0b43-6457-4699-b535-b831c70c7c2a" time="1369180012072" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,65 +148,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="homepages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/homepages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.hbs.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/gallery.hbs.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.hbs.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="49" selection-start="1272" selection-end="1272" vertical-scroll-proportion="-22.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="37" selection-start="953" selection-end="953" vertical-scroll-proportion="0.73622704">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homepages.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homepages.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="1340" selection-end="1894" vertical-scroll-proportion="0.0">
+            <state line="32" column="14" selection-start="630" selection-end="630" vertical-scroll-proportion="-19.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rate.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/rate.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rater_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/rater_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="230" selection-end="257" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepages_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/homepages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/mailers/contact.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="54" selection-start="199" selection-end="199" vertical-scroll-proportion="0.15570934">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_email.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact/contact_email.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="34" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="8" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index_view.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+            <state line="16" column="26" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery_view.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/gallery_view.js.coffee">
+      <file leaf-file-name="index.hbs.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="66" column="29" selection-start="1960" selection-end="1964" vertical-scroll-proportion="-14.666667">
+              <folding>
+                <marker date="1369179617732" expanded="false" signature="1342:1360" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1429:1601" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1524:1592" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1631:1799" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1724:1790" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1829:2022" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="1929:2013" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="2052:2242" placeholder="..." />
+                <marker date="1369179617732" expanded="true" signature="2080:2233" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -305,22 +271,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/new.hbs.erb" />
-        <option value="$PROJECT_DIR$/app/models/gallery.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/homepages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/homepages/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/homepages.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/gallery.hbs.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/gallery_view.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/new_view.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/new.hbs.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130512122744544_create_rates.rb" />
+        <option value="$PROJECT_DIR$/app/models/rate.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/rater_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/contact/contact_email.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/homepages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/contact.rb" />
       </list>
     </option>
   </component>
@@ -332,10 +298,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="x" value="55" />
+    <option name="y" value="-4" />
+    <option name="width" value="1626" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -412,6 +378,128 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webistar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,10 +608,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homepages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -555,37 +639,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webistar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webistar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="contacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -676,36 +730,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webistar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webistar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,23 +758,24 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/kupon" />
+    <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.haml" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.haml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts" />
-      <recent name="D:\projects\rails\webistar\app\assets\javascripts\backbone\views\comments" />
-      <recent name="D:\projects\rails\webistar\app\assets\javascripts\backbone\templates\homepages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/javascripts/jquery" />
@@ -760,7 +785,7 @@
       <recent name="D:\projects\rails\webistar\app\assets\javascripts\backbone\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: webistar">
+  <component name="RunManager" selected="Rake.routes">
     <configuration default="false" name="IRB console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="webistar" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1041,13 +1066,6 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -1081,6 +1099,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -1159,8 +1184,8 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="8081" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="109.229.28.253" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="8080" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="unicorn" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
@@ -1233,9 +1258,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:rollback" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:rollback" />
         <item index="3" class="java.lang.String" itemvalue="Rake.assets:precompile" />
         <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console" />
       </list>
@@ -1263,6 +1288,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="894e0b43-6457-4699-b535-b831c70c7c2a" name="Default" comment="" />
+      <changelist id="3137d269-842c-416f-b693-38c573250032" name="New changelist" comment="" />
       <created>1360960337539</created>
       <updated>1360960337539</updated>
     </task>
@@ -1306,7 +1332,11 @@
       <created>1365426197599</created>
       <updated>1365426197599</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add changes">
+      <created>1368382111501</created>
+      <updated>1368382111501</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1330,24 +1360,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="55" y="-4" width="1626" height="1055" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20203951" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.252218" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22532189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22508399" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32725322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1395,7 +1425,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added backbonejs framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1411,6 +1441,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="added backbonejs framework" />
+    <MESSAGE value="add changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1418,106 +1449,124 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/new_view.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="124" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+        <state line="42" column="4" selection-start="958" selection-end="958" vertical-scroll-proportion="0.8036606">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130512075218_create_galleries.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="18" selection-start="79" selection-end="88" vertical-scroll-proportion="0.049916804">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130512122744544_create_rates.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="918" selection-end="918" vertical-scroll-proportion="0.4599659" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homepages/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.18229167" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="138" selection-end="138" vertical-scroll-proportion="0.1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/gallery.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="61" selection-end="61" vertical-scroll-proportion="0.025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/homepages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="3" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="0.074875206">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homepages.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="1340" selection-end="1894" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="35" selection-end="74" vertical-scroll-proportion="0.024958402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/rate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/index_view.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+        <state line="33" column="33" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/gallery.hbs.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="553" selection-end="553" vertical-scroll-proportion="0.2849741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/animate.css">
+    <entry file="file://$PROJECT_DIR$/test/functional/contact_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/galleries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="858" selection-end="858" vertical-scroll-proportion="0.575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/gallery/gallery_view.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="4" column="145" selection-start="253" selection-end="253" vertical-scroll-proportion="0.10204082">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/gallery/index.hbs.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="49" selection-start="1272" selection-end="1272" vertical-scroll-proportion="-22.5">
+        <state line="52" column="0" selection-start="1841" selection-end="2009" vertical-scroll-proportion="0.50606585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/contact/contact_email.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="37" selection-start="953" selection-end="953" vertical-scroll-proportion="0.73622704">
+        <state line="6" column="34" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/contacts/index.hbs.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="29" selection-start="1960" selection-end="1964" vertical-scroll-proportion="-14.666667">
+          <folding>
+            <marker date="1369179617732" expanded="false" signature="1342:1360" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1429:1601" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1524:1592" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1631:1799" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1724:1790" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1829:2022" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="1929:2013" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="2052:2242" placeholder="..." />
+            <marker date="1369179617732" expanded="true" signature="2080:2233" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/contacts/index_view.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/rater_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="230" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homepages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="199" selection-end="199" vertical-scroll-proportion="0.15570934">
           <folding />
         </state>
       </provider>

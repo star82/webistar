@@ -6,29 +6,31 @@
 
 <br><br>
 
-<a href="#" id="create_image" class="btn">Create</a>
+<a href="#" id="create_image" class="btn btn-primary"><i class="icon-gift icon-white"></i> Upload Image</a>
 
 <!-- navigation holder -->
 <!-- navigation panel -->
-<div class="holder">
+<div class="holder pagination">
 </div>
 
 <!-- item container -->
 
 <ul id="itemContainer">
   {{#each model}}
+
     <li><img src="{{ path }}" alt="image"><br />
-    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="1"/>
-    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="2"/>
-    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="3"/>
-    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="4"/>
-    <input name="adv2" type="radio" class="rating wow-{{@index}}" value="5"/>
+    <span class="label label-info" id="imgAverange-{{@index}}">{{this.averange}}</span><br />
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" rel="{{this.id}}" value="1"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" rel="{{this.id}}" value="2"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" rel="{{this.id}}" value="3"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" rel="{{this.id}}" value="4"/>
+    <input name="adv2" type="radio" class="rating wow-{{@index}}" rel="{{this.id}}" value="5"/>
     </li>
   {{/each}}
 </ul>
 
 <!-- navigation holder -->
-<div class="holder">
+<div class="holder pagination">
 </div>
 <br><br>
 <script>
@@ -36,13 +38,29 @@
         /* initiate plugin */
         $("div.holder").jPages({
             containerID: "itemContainer",
-            perPage       : 6
+            perPage       : 5
         });
         //$('input.wow').rating();
 
         $.each( $('input.rating'), function(i,e){
-            $('input.wow-'+i).rating();
+            $('input.wow-'+i).rating({
+                fx: 'full',
+                loader: '/assets/ajax-loader.gif',
+                url: '/rater',
+                callback: function(responce){
+                    var img_id =  $('input.wow-'+i).attr("rel");
+                    var img_score = responce;
+                    $.post("/rater",{id: img_id,score: img_score},function(data,status){
+                        $('#imgAverange-'+i).text(data)
+                    });
+                    //this.vote_success.fadeOut(2000);
+                    //console.log( responce );
+                }
+            });
+
         })
 
     });
 </script>
+
+<div id="new-container"></div>
